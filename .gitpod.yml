@@ -1,2 +1,1 @@
-image:
-    file: Dockerfile
+image: jfrenchsb/ds-lab-mapreduce
