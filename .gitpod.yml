@@ -1,3 +1,5 @@
 image: jfrenchsb/ds-lab-hadoop
 #image:
  #   file: Dockerfile
+tasks:
+  - command: export PATH=$PATH:~/hadoop-2.10.0/bin
