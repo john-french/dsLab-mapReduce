@@ -15,7 +15,7 @@ ENV HADOOP_HOME /home/gitpod/hadoop-2.10.0
 
 RUN \
     wget https://www-eu.apache.org/dist/hadoop/common/hadoop-2.10.0/hadoop-2.10.0.tar.gz && \
-    tar -zxf hadoop-2.10.0.tar.gz && \
+    tar -zxf hadoop-2.10.0.tar.gz
     # mv hadoop-2.10.0 /workspace && \
     # echo "export JAVA_HOME=$JAVA_HOME" >> $HADOOP_HOME/etc/hadoop/hadoop-env.sh && \
-    echo "PATH=$PATH:$HADOOP_HOME/bin" >> ~/.bashrc
+    #echo "PATH=$PATH:$HADOOP_HOME/bin" >> ~/.bashrc
